@@ -9,11 +9,6 @@
 		$(".preloader").fadeOut(600);
 	});
 
-	// Fallback: Hide preloader after 2 seconds if load event doesn't fire
-	setTimeout(function(){
-		$(".preloader").fadeOut(600);
-	}, 2000);
-
 	/* Sticky Header */	
 	if($('.active-sticky-header').length){
 		$window.on('resize', function(){

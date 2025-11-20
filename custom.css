@@ -334,7 +334,7 @@ body{
 	bottom: 0;
 	z-index: 1000;
 	background-color: var(--accent-color);
-	display: none;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
@@ -864,7 +864,7 @@ header.main-header .header-sticky.active{
 .hero{
 	padding: 150px 0 40px;
 	position: relative;
-	background: url('https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat;
+	background: url('../images/hero-bg.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
@@ -1115,7 +1115,7 @@ header.main-header .header-sticky.active{
 }
 
 .genuine-rating-counter .about-counter h2{
-    background: url('https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1920');
+    background: url('../images/genuine-rating-counter-bg.jpg');
     background-size: cover;
 	background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1157,7 +1157,7 @@ header.main-header .header-sticky.active{
 .our-services{
 	position: relative;
 	padding: 100px 0 280px;
-	background: url('https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center;
+	background: url('../images/our-service-bg.jpg') no-repeat center center;
 	background-size: cover;
 }
 
@@ -1939,7 +1939,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-testimonial{
-	background: url('https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1920'), var(--secondary-color);
+	background: url('../images/testimonial-bg.png'), var(--secondary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2323,7 +2323,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center;
+	background: url('../images/page-header-bg.jpg') no-repeat center center;
 	background-size: cover;
 	padding: 150px 0;
 }
@@ -2392,7 +2392,7 @@ header.main-header .header-sticky.active{
 
 .mission-vision-bg{
 	position: relative;
-	background: url('https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1920');
+	background: url('../images/our-service-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3114,7 +3114,7 @@ header.main-header .header-sticky.active{
 
 .sidebar-cta-box{
 	position: relative;
-	background-image: url(https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=800);
+	background-image: url(../images/sidebar-cta-bg-img.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
