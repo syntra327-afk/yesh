@@ -1,0 +1,9 @@
+{
+  "name": "toplax-template",
+  "version": "1.0.0",
+  "description": "Factory & Industry HTML Template",
+  "scripts": {
+    "dev": "npx -y sirv-cli . --port 5173 --host",
+    "build": "echo 'Static HTML site - no build needed'"
+  }
+}
